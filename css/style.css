@@ -1,0 +1,485 @@
+@import "/css/barlow/font.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "barlow", sans-serif;
+  line-height: 1.4;
+  color: #516171;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
+}
+
+a {
+  color: #092032;
+}
+
+img {
+  width: 100%;
+}
+
+/*TOP NAVIGATION*/
+.top-navbar {
+  background-color: rgb(247, 37, 133);
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.top-navbar p {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 10px 0 10px 0;
+  margin-right: 1rem;
+  color: #ffff;
+}
+
+.top-navbar span {
+  vertical-align: middle;
+}
+
+.navbar {
+  padding: 10px;
+  /* z-index: 1; */
+}
+
+.social-links {
+  margin-top: 7px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-links svg {
+  width: 31px;
+  height: 31px;
+  font-size: 1rem;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.267);
+  border-radius: 100%;
+}
+
+.social-links svg:hover {
+  background-color: #ffffff9d;
+  color: rgba(255, 255, 255, 0.3);
+  transition: 1ss ease-in-out !important;
+}
+
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);
+  color: #ffff;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-weight: 700;
+  color: #092032;
+  margin-left: 0.5rem !important;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar-brand:hover {
+  color: rgb(247, 37, 133);
+  transition: 0.5s ease;
+}
+
+.navbar .navbar-nav .nav-link li {
+  font-size: 2rem;
+}
+c .navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.btn {
+  padding: 9px 24px;
+  font-weight: 500;
+}
+
+.btn-brand {
+  background-color: #092032;
+  font-weight: 700;
+  color: #516171;
+}
+
+.btn-brand:hover {
+  background-color: #092032;
+  color: rgb(247, 37, 133);
+}
+
+/*SLIDER*/
+.slide1 {
+  background: linear-gradient(rgba(32, 94, 141, 0.705), rgba(9, 32, 50, 0.753)),
+    url("/images/joshua-aragon-FGXqbqbGt5o-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-outline-primary:hover {
+  background-color: rgb(247, 37, 133);
+  color: #092032;
+}
+
+.slide2 {
+  background: linear-gradient(rgba(32, 94, 141, 0.705), rgba(9, 32, 50, 0.753)),
+    url("/images/pakata-goh-EJMTKCZ00I0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  display: grid;
+  place-items: center;
+  background-color: rgb(247, 37, 133) !important;
+  margin-top: -30px !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  border-radius: 100px !important;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  background-color: rgba(247, 37, 132, 0.637) !important;
+}
+
+.owl-prev {
+  left: 0;
+}
+
+.owl-next {
+  right: 0;
+}
+
+/* INFOBOX */
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+}
+
+.info-box h5 {
+  color: rgb(177, 27, 214);
+}
+
+.info-box .info-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+
+.image2 {
+  border-radius: 50%;
+  height: 500px;
+}
+
+#milestone {
+  background: linear-gradient(rgb(199, 34, 191),
+      rgba(7, 236, 206, 0.87)), url("/images/bornToCode.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 310px;
+}
+
+#milestone .display-3 {
+  font-weight: 700;
+}
+
+.milestone {
+  color: white;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h6 {
+  font-weight: 400;
+  color: rgb(247, 37, 133);
+}
+
+.intro p {
+  max-width: 500px;
+  margin: auto;
+}
+
+.service-box .info-image {
+  width: 100px;
+  height: 100px;
+}
+
+/*SERVICE*/
+.service-box-vue {
+  padding: 10px;
+  /* box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8); */
+  box-shadow: 0px 6px 30px rgba(6, 240, 18, 0.63);
+  border-radius: 10px;
+}
+
+.service-box-laravel {
+  padding: 10px;
+  /* box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8); */
+  box-shadow: 0px 6px 30px rgba(247, 37, 132, 0.63);
+  border-radius: 10px;
+}
+
+
+.service-box h5 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: rgb(177, 27, 214);
+}
+
+#project-slider .image {
+  width: 95%;
+  height: 300px;
+}
+
+/*PROJECT*/
+.project {
+  position: relative;
+}
+
+.project .content {
+  background: linear-gradient(
+    to top,
+    rgb(240, 234, 241),
+    rgba(167, 24, 55, 0.603)
+  );
+  position: absolute;
+  width: 80%;
+  height: 120px;
+  bottom: 0;
+  left: 0;
+  margin-left: 48px;
+}
+
+.content h1 {
+  color: #ffff;
+  margin: 20px;
+}
+
+.content a {
+    margin: 20px;
+    color: #092032  !important;
+    text-decoration: underline !important;
+}
+
+.project h6 a {
+  font-weight: 700 !important;
+}
+
+.project a::before {
+  content: "";
+  height: 2px;
+  width: 24px;
+  background-color: #092032;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.project a:hover {
+  color: rgb(247, 37, 133) !important;
+  transition: 0.5s ease;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: rgb(247, 37, 133) !important;
+}
+
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: rgba(247, 37, 132, 0.63) !important;
+}
+
+#project-slider .owl-prev {
+  position: absolute;
+  top: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  display: grid;
+  place-items: center;
+  background-color: rgb(247, 37, 133) !important;
+  margin-top: -30px !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  border-radius: 100px !important;
+}
+
+#project-slider .owl-next {
+  position: absolute;
+  top: 50%;
+  width: 60px !important;
+  height: 60px !important;
+  display: grid;
+  place-items: center;
+  background-color: rgb(247, 37, 133) !important;
+  margin-top: -30px !important;
+  margin-right: 35px !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  border-radius: 100px !important;
+}
+
+#project-slider .owl-prev:hover,
+#project-slider .owl-next:hover {
+  background-color: rgba(247, 37, 132, 0.623) !important;
+}
+
+/*TEAM*/
+.team-number {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.team-number .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 84%;
+  background-color: rgba(247, 37, 132, 0.322);
+}
+
+.team-number .team-image {
+  height: 350px;
+}
+
+#reviews {
+  background: linear-gradient(
+      rgba(218, 12, 208, 0.644),
+      rgba(233, 6, 176, 0.658)
+    ),
+    url("/images/47118.jpg");
+}
+
+.review h4,
+.review p {
+  color: white !important;
+  margin-top: 20px;
+  font-size: larger;
+}
+
+.review small {
+  color: rgb(9, 201, 226) !important;
+  margin-top: 20px;
+  font-size: larger;
+}
+
+.review {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.review img {
+  width: 80px !important;
+  border-radius: 100px;
+  height: 80px;
+  margin: auto;
+}
+
+/* FOOTER */
+footer {
+  background: linear-gradient(
+      rgba(218, 12, 208, 0.644),
+      rgba(233, 6, 176, 0.658)
+    ),
+    url("/images/47118.jpg");
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: #ffff;
+  text-align: center;
+}
+
+.footer-top .navbar-brand {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.footer-top .navbar-brand:hover {
+  color: rgb(247, 37, 133) !important;
+}
+
+
+.footer-top {
+  margin-bottom: 40px;
+}
+
+.footer-bottom {
+  padding-top: 50px;
+  border-top: 0.4px solid rgba(255, 255, 255, 0.253);
+}
+
+.footer-bottom p,
+footer p {
+  font-weight: 700 !important;
+}
+
+footer .social-links a {
+  margin-left: 10px;
+  margin: 5px;
+  font-size: 50px !important;
+}
+
+footer .social-links svg {
+  width: 51px !important;
+  height: 51px !important;
+}
+
+footer .footer-top p {
+  margin-top: 30px;
+}
+
+/*MODAL*/
+.collapse button {
+  background-color: #092032 !important;
+  color: #ffff !important;
+}
+
+.collapse button:hover {
+  background-color: #092032c2 !important;
+  color: #ffff !important;
+}
+
+.modal-header .btn-close {
+  background-color: red !important;
+}
+
+.modal .btn-primary {
+  background-color: #092032 !important;
+}
+
+.modal .btn-primary:hover {
+  background-color: #092032d5 !important;
+}
+
+.modal-body label {
+  color: white;
+  font-weight: 700 !important;
+}
+
+.modal-body textarea {
+  height: 120px;
+}
