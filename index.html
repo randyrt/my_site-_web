@@ -17,7 +17,7 @@
     <nav class="top-navbar">
       <div class="container">
         <div class="row justify-content-lg-between">
-          <div class="col-auto">
+          <div class="col-auto mt-3">
             <p>
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
@@ -38,7 +38,7 @@
             </p>
           </div>
           <div class="col-auto">
-            <div class="social-links">
+            <div class="social-links d-flex align-items-center justify-content-end">
               <a href="www.google.com" target="_blank">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
                   <path
@@ -51,11 +51,17 @@
                     d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z" />
                 </svg>
               </a>
-              <a href="www.google.com" target="_blank">
+              <a href="www.google.com" target="_blank" style="margin-right: 200px;">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="#ffff" width="24" height="24" viewBox="0 0 24 24">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z" />
                 </svg>
+              </a>
+              <a>
+                <button id="toggle-button" class="theme-toggle">
+                  <span class="icon sun"></span>
+                  <span class="icon moon"></span>
+                </button>
               </a>
             </div>
           </div>
@@ -64,7 +70,7 @@
     </nav>
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">art@dev</a>
+        <a class="navbar-brand" href="#">Randy.</a>
         <button class="navbar-toggler bgbtn" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -89,8 +95,6 @@
                 target="_blank">Porfolio</a>
             </li>
           </ul>
-          <!--<a class="btn btn-brand ms-lg-auto" href="" data-bs-toggle="modal"
-            data-bs-target="#exempleModal">Contact-me</a>-->
           <button type="button" class="btn btn-info ms-lg-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
             contact-me
           </button>
@@ -116,13 +120,15 @@
       <div class="slide2 min-vh-100 d-flex align-items-center justify-content-center">
         <div class="container">
           <div class="row">
-            <div class="text-center col-12">
+            <div class="text-center col-12 button-magique">
               <h6 class="text-info text-uppercase"></h6>
               <h1 class="my-3 text-info display-2 text-uppercase">On backend side, i use <span
                   class="text-white">laravel</span>, one of the best
                 framework PHP for security, better database design and relationships
               </h1>
-              <a href="#project" class="btn btn-outline-primary ms-lg-3" style="font-weight: 700;">My work</a>
+              <div class="btn-box">
+                <a href="#project" class=" ms-lg-3">My work</a>
+              </div>
             </div>
           </div>
         </div>
@@ -171,8 +177,7 @@
             </div>
           </div>
           <div class="col-lg-5" class="column">
-            <img class="image2"
-              src="./images/1949615-i-love-coding-linkedin-background-software-development-linkedin-banner.png" alt="">
+            <img class="image2" src="./images/love_coding.jpg" alt="">
           </div>
         </div>
       </div>
@@ -199,14 +204,15 @@
 
     </section>
 
-    <!--SERVICES-->
+    <!--SKILLS-->
     <section id="service">
       <div class="container">
         <div class="row">
           <div class="text-center col-12 intro">
             <h6>MY SKILLS</h6>
-            <h1><span class="text-success">Vue.js</span> and <span class="text-danger">Laravel</span> developer</h1>
-            <p style="font-weight: bold;">
+            <h1 id="add"><span class="text-success">Vue.js</span> and <span class="text-danger">Laravel</span>
+              developer</h1>
+            <p>
               With Vue.js on the frontend and laravel on the backend, i can
               create
               dynamic and responsive web
@@ -274,10 +280,10 @@
     </section>
 
     <!--PROJECT-->
-    <section id="project" class="bg-info">
+    <section id="project">
       <div class="container">
         <div class="row">
-          <div class="text-center col-12 intro">
+          <div class="text-center col-12 intro-project">
             <h6>PROJECTS</h6>
             <h1>My expertise for your satisfaction !</h1>
             <p>
@@ -343,7 +349,7 @@
         <div class="container">
           <div class="row">
             <div class="mx-auto col-lg-6">
-              <a href="" class="navbar-brand art text-dark">ART@DEV</a>
+              <a href="" class="randy">Randy.</a>
               <p class="text-white">"To be the best, you must surround yourself with the best, and it's not up
                 to
                 them to come to you, but for you to go to them"</p>
@@ -427,6 +433,7 @@
     <script src="./javascript/bootstrap.bundle.min.js"></script>
     <script src="./javascript/owl.carousel.min.js"></script>
     <script src="./javascript/app.js"></script>
+    <script src="./javascript/dark-mode.js"></script>
 
 
   </body>
