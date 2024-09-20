@@ -36,33 +36,8 @@ Si quelqu'un souhaite cloner et exécuter ce projet localement, voici les étape
     cd my_site_web
     ```
 
-3. Installer les dépendances (si nécessaire pour un projet Laravel/Vue.js) :
-
-    ```bash
-    composer install
-    npm install
-    ```
-
-4. Configurer le fichier `.env` (si applicable) :
-
-    - Copier `.env.example` en `.env` et configurer la base de données et d'autres paramètres.
-
-5. Exécuter les migrations pour configurer la base de données :
-
-    ```bash
-    php artisan migrate
-    ```
-
-6. Lancer le serveur de développement :
-
-    ```bash
-    php artisan serve
-    npm run dev
-    ```
 
 ### Utilisation
-
-Une fois installé, vous pouvez visiter le site à l'adresse suivante : `http://localhost:8000`.
 
 ### Contribuer
 
@@ -70,8 +45,7 @@ Les contributions sont les bienvenues ! Si vous souhaitez améliorer le projet, 
 
 ### Auteur
 
-- **Ton Nom** - Développeur fullstack
-- [LinkedIn](https://www.linkedin.com/in/ton-profil)
+- **Randy Andrianstiory** - Développeur fullstack
 - [Portfolio](https://ton-site.com)
 
 ### Licence
